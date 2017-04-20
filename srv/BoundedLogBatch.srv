@@ -1,0 +1,14 @@
+byte DEBUG=1
+byte INFO=2
+byte WARN=4
+byte ERROR=8
+byte FATAL=16
+
+string[] paths
+byte level
+int32 first_id
+int32 last_id
+
+---
+
+rosgraph_msgs/Log[] logs

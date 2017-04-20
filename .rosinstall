@@ -1,0 +1,9 @@
+- git:
+    local-name: src/log_server
+    uri: http://git.easymov.fr/ros-open-source/log_server.git
+- git:
+    local-name: src/oros_tools
+    uri: http://git.easymov.fr/oros/oros_tools.git
+- git:
+    local-name: src/ros_peerjs
+    uri: http://git.easymov.fr/ros-open-source/ros_peerjs.git

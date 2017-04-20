@@ -1,0 +1,20 @@
+<launch>
+
+  <node name="gossip_un" pkg="log_server" type="gossip.py">
+    <param name="~rate" value="1"/>
+    <param name="~log_message" value="log with high rates"/>
+    <param name="~log_type" value="fatal"/>
+  </node>
+
+  <group ns="test">
+    <node name="gossip_dos" pkg="log_server" type="gossip.py">
+    </node>
+
+    <node name="gossip_tres" pkg="log_server" type="gossip.py">
+    </node>
+  </group>
+
+  <node name="log_server" pkg="log_server" type="log_server_node.py"
+        output="screen" required="true"/>
+
+</launch>
