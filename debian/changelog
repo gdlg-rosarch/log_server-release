@@ -1,0 +1,8 @@
+ros-kinetic-log-server (0.1.1-0wily) wily; urgency=high
+
+  * First public release
+  * Contributors: Gérald Lelong
+
+ -- Easymov Robotics <dev@easymov.fr>  Sun, 26 Mar 2017 22:00:00 -0000
+
+
