@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>log_server</name>
-  <version>0.1.1</version>
+  <version>0.1.4</version>
   <description>The log_server package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
@@ -25,7 +25,7 @@
   <!-- Author tags are optional, mutiple are allowed, one per tag -->
   <!-- Authors do not have to be maintianers, but could be -->
   <!-- Example: -->
-  <author email="gerald.lelong@easymov.fr">Gérald Lelong</author> 
+  <author email="gerald.lelong@easymov.fr">Gérald Lelong</author>
 
 
   <!-- The *_depend tags are used to specify dependencies -->
@@ -40,6 +40,8 @@
   <!-- Use test_depend for packages you need only for testing: -->
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rosgraph_msgs</build_depend>
   <run_depend>rospy</run_depend>
   <run_depend>python-expiringdict</run_depend>
   <run_depend>message_generation</run_depend>
